@@ -1,0 +1,28 @@
+{
+  "name": "sweetshopbackend",
+  "version": "1.0.0",
+  "description": "This is a RESTful web service for a Sweetshop",
+  "homepage": "https://github.com/subrahmanyasv/SweetShopApp-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/subrahmanyasv/SweetShopApp-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subrahmanyasv/SweetShopApp-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Subrahmanya Vaidya",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}
